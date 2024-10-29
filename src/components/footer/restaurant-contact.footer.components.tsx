@@ -3,7 +3,7 @@ import { CiLocationOn, CiPhone } from "react-icons/ci";
 const RestaurantContactFooterComponent = () => {
   return (
     <>
-      <div className="w-full h-auto bg-teal-600">
+      <div className="w-full h-auto bg-teal-700">
         <h1 className="text-center text-xl pt-5 font-bold text-white">
           Burger House And Crunchy Fried Chicken
         </h1>
