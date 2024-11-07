@@ -8,6 +8,7 @@ import imageChickenChilly from "../../assets/images/chicken-chilly.png";
 import imageKhanaSet from "../../assets/images/khana-set.png";
 import imageKhajaSet from "../../assets/images/khaja-set.png";
 import TodayMenuHeaderComponent from "../../components/header/today-menu.header.components";
+import ShowPriceListButtonComponent from "../../components/price-list/show-price-list-button.components";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,9 @@ const HomePage = () => {
         />
         <MenuItemListComponent itemName="Khaja Set" imageSrc={imageKhajaSet} />
         <MenuItemListComponent itemName="Khana Set" imageSrc={imageKhanaSet} />
+      </div>
+      <div className="flex justify-center items-center">
+        <ShowPriceListButtonComponent />
       </div>
     </>
   );
